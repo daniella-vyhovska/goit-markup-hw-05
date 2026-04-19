@@ -418,7 +418,6 @@ padding-bottom: 100px;
 display: flex;
 margin: 0 auto;
 align-items: baseline;
-gap: 80px;
 }
 
 .footer-logo {
@@ -444,7 +443,7 @@ margin-top: 16px;
 }
 
 .footer-socials {
-    padding-left: 40px;
+    margin-left: 120px;
 }
 
 .footer-socials-title {
@@ -482,8 +481,9 @@ background-color: #31d0aa;;;
 }
 
 .footer-subscribe {
-    margin-right: auto;
+    margin-left: auto;
 }
+
 .footer-subscribe-title {
     font-weight: 500;
     font-size: 16px;
@@ -563,7 +563,7 @@ background-color: #31d0aa;;;
     pointer-events: none;
 }
 
-.backdrop.is-open {
+.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -598,6 +598,7 @@ background-color: #31d0aa;;;
 .modal-close-button:hover,
 .modal-close-button:focus {
     background-color: #404bbf;
+    fill: #fff;
 }
 
 .modal-icon {
@@ -633,7 +634,8 @@ background-color: #31d0aa;;;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    padding-left: 50px;
+    padding-left: 38px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus {
@@ -660,6 +662,7 @@ transform: translateY(-50%);
     height: 120px;
     resize: none;
     padding: 8px 16px;
+    margin-bottom: 16px;
 }
 
 .modal-check-label {
