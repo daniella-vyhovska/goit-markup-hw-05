@@ -615,6 +615,10 @@ background-color: #31d0aa;
     fill: #fff;
 }
 
+.modal-close-button:focus .modal-icon {
+    fill: #fff;
+}
+
 .modal-title {
     font-weight: 500;
     font-size: 16px;
@@ -625,9 +629,6 @@ background-color: #31d0aa;
     margin-bottom: 16px;
 }
 
-.modal-field {
-    margin-top: 8px;
-}
 
 .modal-label {
     font-weight: 400;
@@ -637,6 +638,7 @@ background-color: #31d0aa;
     color: #8e8f99;
     margin-bottom: 4px;
     display: inline-block;
+    margin-top: 8px;
 }
 
 .modal-input {
@@ -663,6 +665,7 @@ background-color: #31d0aa;
 
 .modal-field-icon {
 position: absolute;
+fill: #2e2f42;
 top: 50%;
 left: 16px;
 transform: translateY(-50%);
